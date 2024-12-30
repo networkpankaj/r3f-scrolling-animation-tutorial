@@ -14,7 +14,7 @@ const Section = (props) => {
     >
       <div className="w-1/2 flex items-center justify-center">
         <div className="max-w-sm w-full">
-          <div className="bg-white  rounded-lg px-8 py-12">
+          <div className="bg-[#fdf7ecd8]  rounded-lg px-8 py-12">
             {props.children}
           </div>
         </div>
@@ -40,7 +40,7 @@ export const Overlay = () => {
       <div class="w-screen">
         <Section opacity={opacityFirstSection}>
           <h1 className="font-semibold font-serif text-2xl">
-            Hello, I'm Wawa Sensei
+            Hello, I'm Pankaj Singh Koshyari
           </h1>
           <p className="text-gray-500">Welcome to my beautiful portfolio</p>
           <p className="mt-3">I know:</p>
@@ -61,8 +61,7 @@ export const Overlay = () => {
           </p>
           <ul className="leading-9">
             <li>ReactJS</li>
-            <li>React Native</li>
-            <li>VueJS</li>
+            <li>java</li>
             <li>Tailwind</li>
           </ul>
           <p className="mt-3">
@@ -84,7 +83,7 @@ export const Overlay = () => {
             I'm very expensive but you won't regret it
           </p>
           <p className="mt-6 p-3 bg-slate-200 rounded-lg">
-            📞 <a href="tel:(+42) 4242-4242-424242">(+42) 4242-4242-424242</a>
+            📞 <a href="tel:(+91) 7973498879">(+91) 7973498879</a>
           </p>
         </Section>
       </div>

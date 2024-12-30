@@ -1,0 +1,11 @@
+@layer comp {
+    .stackingcard {
+      @apply absolute top-0 left-0 h-full w-full;
+      
+    }
+  
+    .overlay {
+      @apply absolute top-0 left-0 flex items-end w-full h-full p-4;
+    }
+  }
+  

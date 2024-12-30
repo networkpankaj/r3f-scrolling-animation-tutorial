@@ -20,7 +20,10 @@ export function Office(props) {
   const scroll = useScroll();
 
   useFrame(() => {
-    tl.current.seek(scroll.offset * tl.current.duration());
+    console.log(scroll.offset); // Log the scroll offset
+    if (tl.current) {
+      tl.current.seek(scroll.offset * tl.current.duration());
+    }
   });
 
   useLayoutEffect(() => {

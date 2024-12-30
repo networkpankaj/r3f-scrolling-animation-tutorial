@@ -1,17 +1,29 @@
 import { Canvas } from "@react-three/fiber";
 import "./App.css";
 import { Experience } from "./components/Experience";
+import Intro from "./components/Intro";
+import Featured from "./components/Featured";
+import Footer from "./components/Footer";
+import Cards from "./components/Cards";
+import StackingCard from "./components/StackingCard";
+import Header from "./components/Header";
+
+
 
 function App() {
   return (
-    <Canvas
-      camera={{
-        fov: 64,
-        position: [2.3, 1.5, 2.3],
-      }}
-    >
-      <Experience />
-    </Canvas>
+   <>
+   <Header/>
+   <Intro />
+   <Canvas>
+    <Experience />
+   </Canvas>
+   
+   <Featured />
+   <Cards />
+   <StackingCard />
+   <Footer />
+   </>  
   );
 }
 
