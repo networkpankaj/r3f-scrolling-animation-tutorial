@@ -12,7 +12,7 @@ const Intro = () => {
   return (
     <div className="w-full h-screen">
       {/* Intro Section */}
-      <div className="p-[40px] bg-white relative overflow-hidden">
+      <div className=" p-[40px] bg-white relative overflow-hidden">
         {/* Gradient Overlay */}
         <div className="gradient-bg absolute inset-0 pointer-events-none" />
 
@@ -51,24 +51,7 @@ const Intro = () => {
         </div>
       </div>
 
-      {/* Animated Text Section - Centered */}
-      <div className=" py-20 bg-[#3B67B6] flex items-center justify-center">
-        <div className="text-white border-t-2 border-b-2 border-zinc-300 overflow-hidden flex whitespace-nowrap">
-          <motion.h1
-            {...animationProps}
-            className="text-[10vw] leading-none uppercase font-montserrat font-semibold pr-34"
-          >
-            Virtual Octopus Ai
-          </motion.h1>
-          <motion.h1
-            {...animationProps}
-            className="text-[10vw] leading-none uppercase font-montserrat font-semibold pr-34"
-          >
-            Virtual Octopus Ai
-          </motion.h1>
-        </div>
-      </div>
-    </div>
+     </div>
   );
 };
 
